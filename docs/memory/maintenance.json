@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "enabled": true,
+  "daily": {
+    "mode": "light-audit",
+    "autoWriteGlobalMemory": false,
+    "autoDeleteMemory": false
+  },
+  "weekly": {
+    "mode": "deep-audit",
+    "autoWriteGlobalMemory": false,
+    "autoDeleteMemory": false
+  },
+  "prePushHook": {
+    "enabled": true,
+    "blockPushOnFailure": true,
+    "command": "node <yonghu-preferences>/scripts/maintain-memory.mjs --scope project --cwd . --trigger pre-push"
+  },
+  "generatedBy": "PAI-Zong-NB memory maintenance",
+  "updatedAt": "2026-05-30T17:20:43.867Z"
+}

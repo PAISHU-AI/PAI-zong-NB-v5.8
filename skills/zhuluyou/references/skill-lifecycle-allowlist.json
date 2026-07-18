@@ -1,0 +1,481 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-05",
+  "purpose": "Reviewed lifecycle scanner findings accepted for this skills pack. Entries are exact-match allowlist items, not broad suppressions.",
+  "findings": [
+    {
+      "skill": "agent-runtime-api-design",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "api-connector-builder",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "api-design",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "api-integration-specialist",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "browser-testing-with-devtools",
+      "file": "SKILL.md",
+      "rule": "instruction-override",
+      "rationale": "The phrase appears inside a defensive browser-content handling rule, not as an instruction to override the agent hierarchy."
+    },
+    {
+      "skill": "ci-cd-and-automation",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "cloudflare-deploy",
+      "file": "references/cron-triggers/configuration.md",
+      "rule": "macos-persistence-hook",
+      "rationale": "Cloudflare Cron Triggers documentation references cron as a platform feature; it does not install local persistence."
+    },
+    {
+      "skill": "cloudflare-deploy",
+      "file": "references/cron-triggers/gotchas.md",
+      "rule": "macos-persistence-hook",
+      "rationale": "Cloudflare Cron Triggers documentation references cron as a platform feature; it does not install local persistence."
+    },
+    {
+      "skill": "cloudflare-deploy",
+      "file": "references/pipelines/configuration.md",
+      "rule": "secret-exfiltration",
+      "rationale": "Security terms appear in provider documentation examples; external actions still require host gating."
+    },
+    {
+      "skill": "cloudflare-deploy",
+      "file": "references/sandbox/patterns.md",
+      "rule": "remote-shell-pipe",
+      "rationale": "Reference material includes shell patterns; deployment commands remain high-risk and gated."
+    },
+    {
+      "skill": "cloudflare-deploy",
+      "file": "references/stream/README.md",
+      "rule": "secret-exfiltration",
+      "rationale": "Security terms appear in provider documentation examples; external actions still require host gating."
+    },
+    {
+      "skill": "cloudflare-deploy",
+      "file": "references/tunnel/patterns.md",
+      "rule": "macos-persistence-hook",
+      "rationale": "Tunnel docs mention service/persistence concepts; local machine persistence remains prohibited without explicit approval."
+    },
+    {
+      "skill": "cloudflare-deploy",
+      "file": "references/turnstile/gotchas.md",
+      "rule": "secret-exfiltration",
+      "rationale": "Security terms appear in provider documentation examples; external actions still require host gating."
+    },
+    {
+      "skill": "cloudflare-deploy",
+      "file": "references/workers-for-platforms/gotchas.md",
+      "rule": "secret-exfiltration",
+      "rationale": "Security terms appear in provider documentation examples; external actions still require host gating."
+    },
+    {
+      "skill": "cloudflare-deploy",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "deployment-patterns",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "e2e-testing",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "frontend-slides",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "gsap-react",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "iterative-retrieval",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "latency-critical-systems",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "minimalist-ui",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "minimalist-ui",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "netlify-deploy",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "production-audit",
+      "file": "SKILL.md",
+      "rule": "secret-exfiltration",
+      "rationale": "The skill audits for secret exposure; it does not request exfiltration."
+    },
+    {
+      "skill": "ralphinho-rfc-pipeline",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "render-deploy",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "render-deploy",
+      "file": "SKILL.md",
+      "rule": "remote-shell-pipe",
+      "rationale": "Reference install command is provider CLI documentation; deployment commands remain high-risk and gated."
+    },
+    {
+      "skill": "screenshot",
+      "file": "scripts/ensure_macos_permissions.sh",
+      "rule": "hidden-prompt-disclosure",
+      "rationale": "Scanner matched a shell script permission prompt phrase, not hidden-agent prompt disclosure."
+    },
+    {
+      "skill": "security",
+      "file": "SKILL.md",
+      "rule": "secret-exfiltration",
+      "rationale": "The skill identifies and prevents secret exposure; it does not request exfiltration."
+    },
+    {
+      "skill": "security-best-practices",
+      "file": "references/python-django-web-server-security.md",
+      "rule": "secret-exfiltration",
+      "rationale": "Security reference discusses secret exposure prevention."
+    },
+    {
+      "skill": "security-best-practices",
+      "file": "references/python-flask-web-server-security.md",
+      "rule": "secret-exfiltration",
+      "rationale": "Security reference discusses secret exposure prevention."
+    },
+    {
+      "skill": "security-bounty-hunter",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "security-review-pro",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "security-scan",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "sentry",
+      "file": "SKILL.md",
+      "rule": "remote-shell-pipe",
+      "rationale": "Reference install command is third-party CLI documentation; external install remains gated."
+    },
+    {
+      "skill": "shadcn-ui",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "shop",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "source-driven-development",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "spark",
+      "file": "README.md",
+      "rule": "external-url",
+      "rationale": "External URL appears in documentation or reference material; network actions remain gated by the host and selected skill workflow."
+    },
+    {
+      "skill": "spark",
+      "file": "scripts/helper.js",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "spark",
+      "file": "scripts/server.cjs",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "spark",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "spark",
+      "file": "visual-companion.md",
+      "rule": "external-url",
+      "rationale": "External URL appears in documentation or reference material; network actions remain gated by the host and selected skill workflow."
+    },
+    {
+      "skill": "strategic-compact",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "superpowers-writing-plans",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "tauri",
+      "file": "references/distribution.md",
+      "rule": "remote-shell-pipe",
+      "rationale": "Reference command appears in upstream Tauri documentation; execution remains gated."
+    },
+    {
+      "skill": "tauri",
+      "file": "references/llms-full.md",
+      "rule": "remote-shell-pipe",
+      "rationale": "Large upstream reference includes installer examples; execution remains governed by host safety gates."
+    },
+    {
+      "skill": "tauri",
+      "file": "references/llms-full.md",
+      "rule": "secret-exfiltration",
+      "rationale": "Large upstream reference includes security wording; execution remains governed by host safety gates."
+    },
+    {
+      "skill": "tauri",
+      "file": "references/llms-full.md",
+      "rule": "shell-profile-modification",
+      "rationale": "Large upstream reference mentions shell profiles; local profile edits remain high-risk and gated."
+    },
+    {
+      "skill": "tauri",
+      "file": "references/other.md",
+      "rule": "shell-profile-modification",
+      "rationale": "Upstream reference mentions shell profiles; local profile edits remain high-risk and gated."
+    },
+    {
+      "skill": "tauri",
+      "file": "references/reference.md",
+      "rule": "secret-exfiltration",
+      "rationale": "Upstream reference includes security-related words; execution remains governed by host safety gates."
+    },
+    {
+      "skill": "tauri",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "tauri",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "web-design-guidelines",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "webhook-subscriptions",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "windows-desktop-e2e",
+      "file": "SKILL.md",
+      "rule": "external-url",
+      "rationale": "External URL is documentation, official reference, or non-executed example in SKILL.md; network access and external writes remain gated by the selected skill workflow and host approval."
+    },
+    {
+      "skill": "windows-desktop-e2e",
+      "file": "SKILL.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in workflow, artifact, analytics, webhook, or validation context; it does not authorize telemetry, upload, callback, or external write without explicit approval."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "references/skill-inventory-snapshot.json",
+      "rule": "external-url",
+      "rationale": "Generated inventory snapshot contains descriptions of security-related skills; it is not executable skill behavior."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "references/skill-inventory-snapshot.json",
+      "rule": "secret-exfiltration",
+      "rationale": "Generated inventory snapshot contains descriptions of security-related skills; it is not executable skill behavior."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "references/skill-inventory-snapshot.json",
+      "rule": "telemetry-or-upload",
+      "rationale": "Generated inventory snapshot contains descriptions of security-related skills; it is not executable skill behavior."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "references/skill-lifecycle-allowlist.json",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "scripts/audit-skill-lifecycle.mjs",
+      "rule": "hidden-prompt-disclosure",
+      "rationale": "Lifecycle/security script source contains scanner rule terms as defensive detection patterns; the script remains governed by install and audit gates."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "scripts/audit-skill-lifecycle.mjs",
+      "rule": "persistence-hook",
+      "rationale": "Lifecycle/security script source contains scanner rule terms as defensive detection patterns; the script remains governed by install and audit gates."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "scripts/audit-skill-lifecycle.mjs",
+      "rule": "secret-exfiltration",
+      "rationale": "Lifecycle/security script source contains scanner rule terms as defensive detection patterns; the script remains governed by install and audit gates."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "scripts/audit-skill-lifecycle.mjs",
+      "rule": "telemetry-or-upload",
+      "rationale": "Lifecycle/security script source contains scanner rule terms as defensive detection patterns; the script remains governed by install and audit gates."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "scripts/install-skill-staged.mjs",
+      "rule": "npm-install-hook",
+      "rationale": "Lifecycle/security script source contains scanner rule terms as defensive detection patterns; the script remains governed by install and audit gates."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "scripts/install-skill-staged.mjs",
+      "rule": "telemetry-or-upload",
+      "rationale": "Lifecycle/security script source contains scanner rule terms as defensive detection patterns; the script remains governed by install and audit gates."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "scripts/skill-safety-scan.mjs",
+      "rule": "hidden-prompt-disclosure",
+      "rationale": "Lifecycle/security script source contains scanner rule terms as defensive detection patterns; the script remains governed by install and audit gates."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "scripts/skill-safety-scan.mjs",
+      "rule": "persistence-hook",
+      "rationale": "Lifecycle/security script source contains scanner rule terms as defensive detection patterns; the script remains governed by install and audit gates."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "scripts/skill-safety-scan.mjs",
+      "rule": "secret-exfiltration",
+      "rationale": "Lifecycle/security script source contains scanner rule terms as defensive detection patterns; the script remains governed by install and audit gates."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "scripts/skill-safety-scan.mjs",
+      "rule": "telemetry-or-upload",
+      "rationale": "Lifecycle/security script source contains scanner rule terms as defensive detection patterns; the script remains governed by install and audit gates."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "user-skills/intent-matrix.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "user-skills/project-memory-style.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "user-skills/role-agent-runtime-style.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "user-skills/role-skill-suggestions/role-agent-runtime-style.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "user-skills/skill-cluster-details.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    },
+    {
+      "skill": "zhuluyou",
+      "file": "user-skills/skill-lifecycle-governance-style.md",
+      "rule": "telemetry-or-upload",
+      "rationale": "The term appears in a workflow description, trigger, or observability context; it does not authorize external upload or telemetry without confirmation."
+    }
+  ]
+}

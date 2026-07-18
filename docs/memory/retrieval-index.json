@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-31T19:28:09.543Z",
+  "projectRoot": "C:\\Users\\a3960\\AppData\\Local\\Temp\\PAI-Zong-NB-publish-5dcc72321da8403385034ecbeb95eb2c",
+  "projectMarker": ".ai_project.md",
+  "aiProjectHash": "sha256:e0b539348fd683beda53610a97d8a4196d85c4a1def3d188961734f13c3625a4",
+  "docsCount": 10,
+  "coreFiles": [
+    {
+      "path": ".ai_project.md",
+      "exists": true
+    },
+    {
+      "path": "AGENTS.md",
+      "exists": false
+    },
+    {
+      "path": "docs/INDEX.md",
+      "exists": true
+    },
+    {
+      "path": "docs/project-structure.md",
+      "exists": true
+    },
+    {
+      "path": "docs/roadmap.md",
+      "exists": true
+    }
+  ],
+  "docs": [
+    {
+      "path": "docs/project-structure.md",
+      "purpose": "Project directory, module, and important-file map.",
+      "readWhen": "Before structural changes or broad feature work.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Directories, entry points, modules, or important files change.",
+      "validation": "Paths reflect current repository."
+    },
+    {
+      "path": "docs/roadmap.md",
+      "purpose": "Current plan, next actions, risks, and milestones.",
+      "readWhen": "Before planning or resuming work.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Plans, priorities, milestones, or risks change.",
+      "validation": "Next actions are current and actionable."
+    },
+    {
+      "path": "docs/maintenance/known-issues.md",
+      "purpose": "Known issues and recurring problems.",
+      "readWhen": "Before debugging or risk review.",
+      "owner": "Debugger / Project Assistant",
+      "updateTrigger": "New recurring issue or resolved issue.",
+      "validation": "Issues include status and validation."
+    },
+    {
+      "path": "docs/maintenance/development-log.md",
+      "purpose": "Durable project progress log.",
+      "readWhen": "Before handoff or project review.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Meaningful project state changes.",
+      "validation": "Entries link to relevant docs or files."
+    },
+    {
+      "path": "docs/maintenance/technical-debt.md",
+      "purpose": "Technical debt and cleanup candidates.",
+      "readWhen": "Before refactors or planning.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Debt is found, resolved, or reprioritized.",
+      "validation": "Items have impact and owner/status."
+    },
+    {
+      "path": "docs/memory/README.md",
+      "purpose": "Project memory evidence and invalidation rules.",
+      "readWhen": "Before adding evidence, source hashes, retrieval records, or invalidations.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Evidence schema, retrieval index, or invalidation policy changes.",
+      "validation": "Evidence JSONL and invalidation JSONL parse correctly."
+    },
+    {
+      "path": "docs/memory/retrieval-index.json",
+      "purpose": "Machine-readable project memory retrieval index.",
+      "readWhen": "Before summarizing or routing project memory reads.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Durable docs, summaries, or memory routes change.",
+      "validation": "JSON parses and paths exist or are marked missing."
+    },
+    {
+      "path": "docs/memory/maintenance.json",
+      "purpose": "Project memory maintenance setup and safety policy.",
+      "readWhen": "Before changing project maintenance hooks or schedules.",
+      "owner": "Project Assistant / Rule Governor",
+      "updateTrigger": "Maintenance setup, hook policy, or schedule assumptions change.",
+      "validation": "JSON parses and setup remains idempotent."
+    },
+    {
+      "path": "docs/memory/evidence/index.jsonl",
+      "purpose": "Evidence records for durable project memory and KG entries.",
+      "readWhen": "Before verifying durable memory claims.",
+      "owner": "Project Assistant",
+      "updateTrigger": "New durable memory or KG evidence is recorded.",
+      "validation": "Each non-empty line is valid JSON with required fields."
+    },
+    {
+      "path": "docs/memory/invalidations.jsonl",
+      "purpose": "Invalidated or superseded memory records.",
+      "readWhen": "Before trusting old project facts.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Project facts, graph nodes, docs, APIs, or modules are superseded.",
+      "validation": "Each non-empty line is valid JSON with required fields."
+    }
+  ],
+  "entries": [
+    {
+      "path": "docs/project-structure.md",
+      "purpose": "Project directory, module, and important-file map.",
+      "readWhen": "Before structural changes or broad feature work.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Directories, entry points, modules, or important files change.",
+      "validation": "Paths reflect current repository."
+    },
+    {
+      "path": "docs/roadmap.md",
+      "purpose": "Current plan, next actions, risks, and milestones.",
+      "readWhen": "Before planning or resuming work.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Plans, priorities, milestones, or risks change.",
+      "validation": "Next actions are current and actionable."
+    },
+    {
+      "path": "docs/maintenance/known-issues.md",
+      "purpose": "Known issues and recurring problems.",
+      "readWhen": "Before debugging or risk review.",
+      "owner": "Debugger / Project Assistant",
+      "updateTrigger": "New recurring issue or resolved issue.",
+      "validation": "Issues include status and validation."
+    },
+    {
+      "path": "docs/maintenance/development-log.md",
+      "purpose": "Durable project progress log.",
+      "readWhen": "Before handoff or project review.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Meaningful project state changes.",
+      "validation": "Entries link to relevant docs or files."
+    },
+    {
+      "path": "docs/maintenance/technical-debt.md",
+      "purpose": "Technical debt and cleanup candidates.",
+      "readWhen": "Before refactors or planning.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Debt is found, resolved, or reprioritized.",
+      "validation": "Items have impact and owner/status."
+    },
+    {
+      "path": "docs/memory/README.md",
+      "purpose": "Project memory evidence and invalidation rules.",
+      "readWhen": "Before adding evidence, source hashes, retrieval records, or invalidations.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Evidence schema, retrieval index, or invalidation policy changes.",
+      "validation": "Evidence JSONL and invalidation JSONL parse correctly."
+    },
+    {
+      "path": "docs/memory/retrieval-index.json",
+      "purpose": "Machine-readable project memory retrieval index.",
+      "readWhen": "Before summarizing or routing project memory reads.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Durable docs, summaries, or memory routes change.",
+      "validation": "JSON parses and paths exist or are marked missing."
+    },
+    {
+      "path": "docs/memory/maintenance.json",
+      "purpose": "Project memory maintenance setup and safety policy.",
+      "readWhen": "Before changing project maintenance hooks or schedules.",
+      "owner": "Project Assistant / Rule Governor",
+      "updateTrigger": "Maintenance setup, hook policy, or schedule assumptions change.",
+      "validation": "JSON parses and setup remains idempotent."
+    },
+    {
+      "path": "docs/memory/evidence/index.jsonl",
+      "purpose": "Evidence records for durable project memory and KG entries.",
+      "readWhen": "Before verifying durable memory claims.",
+      "owner": "Project Assistant",
+      "updateTrigger": "New durable memory or KG evidence is recorded.",
+      "validation": "Each non-empty line is valid JSON with required fields."
+    },
+    {
+      "path": "docs/memory/invalidations.jsonl",
+      "purpose": "Invalidated or superseded memory records.",
+      "readWhen": "Before trusting old project facts.",
+      "owner": "Project Assistant",
+      "updateTrigger": "Project facts, graph nodes, docs, APIs, or modules are superseded.",
+      "validation": "Each non-empty line is valid JSON with required fields."
+    }
+  ]
+}
